@@ -1,0 +1,5 @@
+/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab1/build/CMakeFiles/lab1.dir
+/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab1/build/CMakeFiles/tests1.dir
+/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab1/build/CMakeFiles/test.dir
+/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab1/build/CMakeFiles/edit_cache.dir
+/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab1/build/CMakeFiles/rebuild_cache.dir

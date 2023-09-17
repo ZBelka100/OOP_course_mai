@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests1.dir/test_lab1.cpp.o CMakeFiles/tests1.dir/extractnumber.cpp.o -o tests1  /usr/lib/x86_64-linux-gnu/libgtest.a 
