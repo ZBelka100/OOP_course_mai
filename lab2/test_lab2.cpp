@@ -51,6 +51,24 @@ TEST(test_13, small_arithmetic_plus_test)
     ASSERT_TRUE((s1 + s2) == s3);
 }
 
+TEST(test_14, arithmetic_plus_test)
+{
+    Eleven s1 ("AAAAA");
+    Eleven s2 {'1'};
+    Eleven s3("100000");
+
+    ASSERT_TRUE((s1 + s2) == s3);
+}
+
+TEST(test_15, arithmetic_plus_zero_test)
+{
+    Eleven s1;
+    Eleven s2 {'1'};
+    Eleven s3("1");
+
+    ASSERT_TRUE((s1 + s2) == s3);
+}
+
 TEST(test_20, big_arithmetic_minus_test)
 {
     std::string a = "112321";
@@ -63,7 +81,7 @@ TEST(test_20, big_arithmetic_minus_test)
     ASSERT_TRUE((s1 - s2) == s3);
 }
 
-TEST(test_21, small_arithmetic_minus_test)
+TEST(test_21, arithmetic_minus_test)
 {
     std::string a = "6A134";
     std::string b = "67510";
@@ -83,13 +101,22 @@ TEST(test_22, big_sub_arithmetic_minus_test)
     EXPECT_THROW((s1 - s2), std::invalid_argument);
 }
 
-TEST(test_23, big_sub_arithmetic_minus_test)
+TEST(test_23, sub_arithmetic_minus_test)
 {
     Eleven s1{'A', '6', '4', '5', '1', '6'};
     Eleven s2{'6', '9', '6', '1', '9', '9'};
     Eleven s3("379328");
 
     ASSERT_TRUE((s1 - s2) == s3);
+}
+
+TEST(test_24, arithmetic_minus_zero_test)
+{
+    Eleven s1;
+    Eleven s2 {'2', 'A'};
+    Eleven s3("2A");
+
+    ASSERT_TRUE((s2 - s1) == s3);
 }
 
 TEST(test_30, boolean_operator_equal_test)
