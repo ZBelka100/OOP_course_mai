@@ -1,63 +1,52 @@
 #include "eleven.h"
 
+
     // Конструктор по умолчанию +
     Eleven::Eleven() : data(nullptr), size(0){}
 
 
    // Конструктор с размером и начинкой +
-    Eleven::Eleven(const size_t& n, unsigned char elem = 0) : size(n) {
-        data = new unsigned char[size];
-        for (size_t i = 0; i < size; ++i) {
+    Eleven::Eleven(const size_t& n, unsigned char elem = '0') : size(n) {
+    data = new unsigned char[size];
+    for (size_t i = 0; i < size; ++i) {
+        if ((elem >= '0' && elem <= '9') || (elem == 'A')) {
             data[i] = elem;
+        } else {
+            delete[] data;
+            throw std::invalid_argument("Некорректный символ в числе");
         }
     }
+}
+
 
     // Конструктор с использованием списка инициализации +
-    Eleven::Eleven(const std::initializer_list<unsigned char>& t) : size(t.size()){
+    Eleven::Eleven(const std::initializer_list<unsigned char>& t) : size(t.size()) {
         data = new unsigned char[size];
         size_t i = t.size() - 1;
         for (const auto& elem : t) {
-            data[i] = elem;
+            if ((elem >= '0' && elem <= '9') || (elem == 'A')) {
+                data[i] = elem;
+            } else {
+                delete[] data; // Освободите ресурсы, если символ некорректный
+                throw std::invalid_argument("Некорректный символ в числе");
+            }
             --i;
         }
-    }
+}
+
 
     // Конструктор, принимающий строку +
     Eleven::Eleven(const std::string& t) : size(t.size()) {
         data = new unsigned char[size];
         for (size_t i = 0; i < size; ++i) {
-            data[size - i - 1] = static_cast<unsigned char>(t[i]);//static_cast для безопасного перведа из char в unsigned char 
+            char currentChar = t[i];
+            if ((currentChar >= '0' && currentChar <= '9') || (currentChar == 'A')) {
+                data[size - i - 1] = static_cast<unsigned char>(currentChar);
+            } else {
+                delete[] data; // Освободите ресурсы, если символ некорректный
+                throw std::invalid_argument("Некорректный символ в числе");
+            }
         }
-    }
-
-    size_t Eleven::getSize() {
-        return size;
-        
-    }
-
-    unsigned char Eleven::getElement(int iter) {
-        return data[iter];
-    } 
-
-    void Eleven::setElement(int iter, unsigned char value) {
-        data[iter] = value;
-    } 
-
-    void Eleven::setValue(const std::string& value) {
-        // Очищаем текущие данные
-        delete[] data;
-        
-        // Вычисляем размер для новых данных
-        size = value.size();
-        
-        // Выделяем память под новые данные
-        data = new unsigned char[size];
-        
-        // Копируем значения из строки
-        for (size_t i = 0; i < size; ++i) {
-            data[i] = static_cast<unsigned char>(value[i]);
-        }
-        
     }
 
 
@@ -122,7 +111,7 @@
             new_data[0] = '0';
         }
         return;
-    }  
+    } 
 
 
     
@@ -136,19 +125,37 @@
         return out;
     }  
 
-    bool Eleven::operator<(const Eleven& second) const {
-        if (size == second.size) {
-            return data[size-1] < second.data[size-1];
+    bool Eleven::operator>(const Eleven &other) const {
+        if (size > other.size) {
+            return true;
+        } else if (size == other.size) {
+            for (int i = size - 1; i >= 0; i--) {
+                if (data[i] > other.data[i]) {
+                    return true;
+                } else if (data[i] < other.data[i]) {
+                    return false;
+                }
+            }
+            return false;
         } else {
-            return size < second.size;
+            return false;
         }
     }
 
-    bool Eleven::operator>(const Eleven& second) const {
-        if (size == second.size) {
-            return data[size-1] > second.data[size-1];
+    bool Eleven::operator<(const Eleven &other) const {
+        if (size < other.size) {
+            return true;
+        } else if (size == other.size) {
+            for (int i = size - 1; i >= 0; i--) {
+                if (data[i] < other.data[i]) {
+                    return true;
+                } else if (data[i] > other.data[i]) {
+                    return false;
+                }
+            }
+            return false;
         } else {
-            return size > second.size;
+            return false;
         }
     }
 
@@ -164,10 +171,12 @@
         return false;
     }
 
-    void Eleven::operator=(Eleven & other) {
+    Eleven& Eleven::operator=(const Eleven & other) {
         size = other.size;
+        delete[] data;
         data = new unsigned char[size];
-        memcpy(data, other.data, size * sizeof(unsigned char));
+        std::memcpy(data, other.data, size * sizeof(unsigned char));
+        return *this;
     }
 
     //сложение +
@@ -206,58 +215,48 @@
         
     }
 
-    Eleven Eleven::operator-(const Eleven& second) const {//вычитаем из первого второе
-        //try {
-            Eleven first = *this;
-            size_t carry = 0;
-            if (first<second) {
-                throw std::invalid_argument("Попытка вычитания большего числа из меньшего");
+    Eleven Eleven::operator-(const Eleven& second) const {
+         Eleven first = *this;
+        size_t carry = 0;
+        if (first<second) {
+            throw std::invalid_argument("Попытка вычитания большего числа из меньшего");
+        }
+        Eleven result(first.size);
+        for (size_t i = 0; i < result.size; ++i) {
+            int firstDigit = 0 - carry;
+            carry = 0;
+            int secondDigit = 0;
+            if (first.data[i] == 'A') {
+                firstDigit += 10;
+            } else {
+                firstDigit += first.data[i] - '0';
             }
-            Eleven result(first.size);
-            for (size_t i = 0; i < result.size; ++i) {//отдельный для А
-                int firstDigit = 0 - carry;
-                carry = 0;
-                int secondDigit = 0;
-                if (first.data[i] == 'A') {
-                    firstDigit += 10;
+            if (i < second.size) {
+                if (second.data[i] == 'A') {
+                    secondDigit += 10;
                 } else {
-                    firstDigit += first.data[i] - '0';
+                    secondDigit += second.data[i] - '0';
                 }
-                if (i < second.size) {
-                    if (second.data[i] == 'A') {
-                        secondDigit += 10;
-                    } else {
-                        secondDigit += second.data[i] - '0';
-                    }
-                } else {
-                    secondDigit = 0;
-                }
-                if (firstDigit < secondDigit) {
-                    // Занимаем у старших разрядов
-                    firstDigit += 11;
-                    carry = 1;
-                }
-                result.data[i] = ((firstDigit - secondDigit) + '0' == ':') ? 'A' : (firstDigit - secondDigit) + '0';
+            } else {
+                secondDigit = 0;
             }
-            result.removeLeadingZeros();
-            return result;
-        /*}   catch (const std::exception& e) {
-                std::cerr << e.what() << std::endl;
-                // Возвращаем пустой объект Eleven как индикатор ошибки
-                return Eleven();
-        }*/
+            if (firstDigit < secondDigit) {
+                // Занимаем у старших разрядов
+                firstDigit += 11;
+                carry = 1;
+            }
+            result.data[i] = ((firstDigit - secondDigit) + '0' == ':') ? 'A' : (firstDigit - secondDigit) + '0';
+        }
+        result.removeLeadingZeros();
+        return result;
         
     }
-    Eleven Eleven::operator+=(const Eleven & other) {
-        Eleven tmp  = *(this) + other;
-        *(this) = tmp;
-
+    Eleven &Eleven::operator+=(const Eleven & other) {
+        *(this)  = *(this) + other;
         return *(this);
     }
     
-    Eleven Eleven::operator-=(const Eleven & other) {
-        Eleven tmp  = *(this) - other;
-        *(this) = tmp;
-
+    Eleven &Eleven::operator-=(const Eleven & other) {
+        *(this) = *(this) - other;
         return *(this);
     }

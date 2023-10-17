@@ -6,6 +6,15 @@
 #include <cstring> // Для функции memcpy
 
 class Eleven {
+
+private:
+    size_t getSize();
+    unsigned char getElement(int iter);
+    void setElement(int iter, unsigned char value);
+    void setValue(const std::string& value);
+    void push_back(char digit);
+    bool isValid(unsigned char a);
+
 public:
     Eleven();
     Eleven(const size_t & n, unsigned char elem);
@@ -16,15 +25,9 @@ public:
 
     virtual ~Eleven() noexcept;
 
-    size_t getSize();
-    unsigned char getElement(int iter);
-    void setElement(int iter, unsigned char value);
-    void setValue(const std::string& value);
-    void push_back(char digit);
     void removeLeadingZeros();
     void swap(Eleven& first, Eleven& second) noexcept;
 
-    unsigned char & operator[](size_t index);
     bool operator>(const Eleven & other) const;
     bool operator<(const Eleven & other) const;
     bool operator==(const Eleven & other) const;
@@ -32,12 +35,12 @@ public:
     friend std::ostream & operator<<(std::ostream &stream, const Eleven & Eleven);
     friend std::istream & operator>>(std::istream & stream, Eleven & Eleven);
     
-    void operator=(Eleven & other);
+    Eleven& operator=(const Eleven & other);
 
     Eleven operator+(const Eleven & other) const;
     Eleven operator-(const Eleven & other) const;
-    Eleven operator+=(const Eleven & other);
-    Eleven operator-=(const Eleven & other);
+    Eleven &operator+=(const Eleven & other);
+    Eleven &operator-=(const Eleven & other);
 
 private:
     size_t size;
