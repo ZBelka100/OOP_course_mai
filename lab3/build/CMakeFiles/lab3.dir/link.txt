@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lab3.dir/lab3.cpp.o CMakeFiles/lab3.dir/point.cpp.o CMakeFiles/lab3.dir/figure.cpp.o CMakeFiles/lab3.dir/figure_arr.cpp.o CMakeFiles/lab3.dir/triangle.cpp.o CMakeFiles/lab3.dir/square.cpp.o CMakeFiles/lab3.dir/rectangle.cpp.o -o lab3 
