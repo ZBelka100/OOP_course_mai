@@ -66,7 +66,7 @@
     }
 
     Rectangle::operator double() const{//маленький на средний
-        long double minim = std::min(Distance(vertices[1], vertices[2]),std::min(Distance(vertices[0], vertices[1]), Distance(vertices[0], vertices[2])));
-        long double maxim = std::max(Distance(vertices[1], vertices[2]),std::max(Distance(vertices[0], vertices[1]), Distance(vertices[0], vertices[2])));
-        return minim * (Distance(vertices[1], vertices[0]) + Distance(vertices[0], vertices[2]) + Distance(vertices[1], vertices[2]) - minim - maxim);
+        long double d1 = Distance(vertices[0], vertices[1]), d2 = Distance(vertices[0], vertices[2]), d3 = Distance(vertices[0], vertices[3]); 
+        long double ma = std::max(d1, std::max(d2, d3)), mi = std::min(d1, std::min(d2, d3));
+        return (mi * (d1+d2+d3-mi-ma));
     }

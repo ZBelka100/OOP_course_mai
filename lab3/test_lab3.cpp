@@ -165,13 +165,50 @@ TEST(FigureArray, SumAreas) {
     figureArray arr;
     Figure* figure1 = new Triangle({0, 0}, {2, 0}, {0, 2});
     Figure* figure2 = new Square ({0, 0}, {2, 0}, {0, 2}, {2, 2});
+    Figure* figure3 = new Rectangle ({0, 0}, {1, 0}, {0, 2}, {1, 2});
 
     arr.pushBack(figure1);
     arr.pushBack(figure2);
+    arr.pushBack(figure3);
 
-    EXPECT_TRUE(arr.findSumAreas() == 6);
+    EXPECT_TRUE(arr.findSumAreas() == 8);
 }
-//проверить move и равно
+
+TEST(FigureArrayTest, TestFindAllCenters) {
+    figureArray arr;
+    Figure* figure1 = new Triangle({0, 0}, {3, 0}, {0, 3});
+    Figure* figure2 = new Square ({0, 0}, {2, 0}, {0, 2}, {2, 2});
+    Figure* figure3 = new Rectangle ({0, 0}, {1, 0}, {0, 2}, {1, 2});
+    arr.pushBack(figure1);
+    arr.pushBack(figure2);
+    arr.pushBack(figure3);
+    std::stringstream capturedOutput;
+    std::streambuf* oldCoutBuffer = std::cout.rdbuf();
+    std::cout.rdbuf(capturedOutput.rdbuf());
+    arr.findAllCenters();
+    std::cout.rdbuf(oldCoutBuffer);
+    std::string expectedOutput = "1 1  1 1  0.5 1  ";
+
+    ASSERT_EQ(capturedOutput.str(), expectedOutput);
+}
+
+TEST(FigureArrayTest, TestFindAllAreas) {
+    figureArray arr;
+    Figure* figure1 = new Triangle({0, 0}, {2, 0}, {0, 3});
+    Figure* figure2 = new Square ({0, 0}, {2, 0}, {0, 2}, {2, 2});
+    Figure* figure3 = new Rectangle ({0, 0}, {1, 0}, {0, 2}, {1, 2});
+    arr.pushBack(figure1);
+    arr.pushBack(figure2);
+    arr.pushBack(figure3);
+    std::stringstream capturedOutput;
+    std::streambuf* oldCoutBuffer = std::cout.rdbuf();
+    std::cout.rdbuf(capturedOutput.rdbuf());
+    arr.findAllAreas();
+    std::cout.rdbuf(oldCoutBuffer);
+    std::string expectedOutput = "3 4 2 ";
+
+    ASSERT_EQ(capturedOutput.str(), expectedOutput);
+}
 
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);

@@ -1,14 +1,16 @@
 #include "all.h"
 
 int main() {
+    figureArray arr;
+    Figure* figure1 = new Triangle({0, 0}, {2, 0}, {0, 3});
+    Figure* figure2 = new Square ({0, 0}, {2, 0}, {0, 2}, {2, 2});
+    Figure* figure3 = new Rectangle ({0, 0}, {1, 0}, {0, 2}, {1, 2});
+    arr.pushBack(figure1);
+    arr.pushBack(figure2);
+    arr.pushBack(figure3);
+   // std::cout.rdbuf(capturedOutput.rdbuf());
+    arr.findAllAreas();
     Rectangle rectangle({0, 0}, {-2, 0}, {0, -3}, {-2, -3});
-    point p = {-1, -1.5};
-    std::cout << rectangle.findCenter() << ' ' << p << '\n';
-    Square square({0, 0}, {-3, 0}, {0, -3}, {-3, -3});
-    p = {-1.5, -1.5};
-    std::cout << square.findCenter() << ' ' << p << '\n';
-    Triangle triangle({0, 0}, {-3, 0}, {0, -3});
-    p = {-1, -1};
-    std::cout << triangle.findCenter() << ' ' << p << '\n';
+    std::cout << double(rectangle);
     return 0;
 }

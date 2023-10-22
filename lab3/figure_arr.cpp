@@ -38,13 +38,15 @@ std::ostream& operator<<(std::ostream& out, const figureArray& _this) {
 
 void figureArray::findAllCenters() {
     for (size_t i = 0; i < size; i++) {
-        std::cout << "Центр фигуры под номером " << i + 1 << " находится в точке "<< figures[i]->findCenter() << '\n';
+        std::cout << figures[i]->findCenter() << ' ';
+        //std::cout << "Центр фигуры под номером " << i + 1 << " находится в точке "<< figures[i]->findCenter() << '\n'; 
     }
 }
 
 void figureArray::findAllAreas() {
     for (size_t i = 0; i < size; i++) {
-        std::cout << "Площадь фигуры под номером " << i + 1 << " равна " << double(*figures[i]) << '\n';
+        std::cout << double(*figures[i]) << ' ';
+        //std::cout << "Площадь фигуры под номером " << i + 1 << " равна " << double(*figures[i]) << '\n';
     }
 }
 
