@@ -1,4 +1,4 @@
-#include "point.h"
+#include "../header/point.h"
 
 
     std::istream& operator>>(std::istream& in, point& point) {

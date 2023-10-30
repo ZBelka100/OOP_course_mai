@@ -69,124 +69,124 @@ include CMakeFiles/tests3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tests3.dir/flags.make
 
-CMakeFiles/tests3.dir/test_lab3.cpp.o: CMakeFiles/tests3.dir/flags.make
-CMakeFiles/tests3.dir/test_lab3.cpp.o: ../test_lab3.cpp
-CMakeFiles/tests3.dir/test_lab3.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests3.dir/test_lab3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/test_lab3.cpp.o -MF CMakeFiles/tests3.dir/test_lab3.cpp.o.d -o CMakeFiles/tests3.dir/test_lab3.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/test_lab3.cpp
+CMakeFiles/tests3.dir/src/test_lab3.cpp.o: CMakeFiles/tests3.dir/flags.make
+CMakeFiles/tests3.dir/src/test_lab3.cpp.o: ../src/test_lab3.cpp
+CMakeFiles/tests3.dir/src/test_lab3.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests3.dir/src/test_lab3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/src/test_lab3.cpp.o -MF CMakeFiles/tests3.dir/src/test_lab3.cpp.o.d -o CMakeFiles/tests3.dir/src/test_lab3.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/test_lab3.cpp
 
-CMakeFiles/tests3.dir/test_lab3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/test_lab3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/test_lab3.cpp > CMakeFiles/tests3.dir/test_lab3.cpp.i
+CMakeFiles/tests3.dir/src/test_lab3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/src/test_lab3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/test_lab3.cpp > CMakeFiles/tests3.dir/src/test_lab3.cpp.i
 
-CMakeFiles/tests3.dir/test_lab3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/test_lab3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/test_lab3.cpp -o CMakeFiles/tests3.dir/test_lab3.cpp.s
+CMakeFiles/tests3.dir/src/test_lab3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/src/test_lab3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/test_lab3.cpp -o CMakeFiles/tests3.dir/src/test_lab3.cpp.s
 
-CMakeFiles/tests3.dir/point.cpp.o: CMakeFiles/tests3.dir/flags.make
-CMakeFiles/tests3.dir/point.cpp.o: ../point.cpp
-CMakeFiles/tests3.dir/point.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests3.dir/point.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/point.cpp.o -MF CMakeFiles/tests3.dir/point.cpp.o.d -o CMakeFiles/tests3.dir/point.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/point.cpp
+CMakeFiles/tests3.dir/src/point.cpp.o: CMakeFiles/tests3.dir/flags.make
+CMakeFiles/tests3.dir/src/point.cpp.o: ../src/point.cpp
+CMakeFiles/tests3.dir/src/point.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests3.dir/src/point.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/src/point.cpp.o -MF CMakeFiles/tests3.dir/src/point.cpp.o.d -o CMakeFiles/tests3.dir/src/point.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/point.cpp
 
-CMakeFiles/tests3.dir/point.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/point.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/point.cpp > CMakeFiles/tests3.dir/point.cpp.i
+CMakeFiles/tests3.dir/src/point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/src/point.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/point.cpp > CMakeFiles/tests3.dir/src/point.cpp.i
 
-CMakeFiles/tests3.dir/point.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/point.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/point.cpp -o CMakeFiles/tests3.dir/point.cpp.s
+CMakeFiles/tests3.dir/src/point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/src/point.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/point.cpp -o CMakeFiles/tests3.dir/src/point.cpp.s
 
-CMakeFiles/tests3.dir/figure.cpp.o: CMakeFiles/tests3.dir/flags.make
-CMakeFiles/tests3.dir/figure.cpp.o: ../figure.cpp
-CMakeFiles/tests3.dir/figure.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests3.dir/figure.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/figure.cpp.o -MF CMakeFiles/tests3.dir/figure.cpp.o.d -o CMakeFiles/tests3.dir/figure.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/figure.cpp
+CMakeFiles/tests3.dir/src/figure.cpp.o: CMakeFiles/tests3.dir/flags.make
+CMakeFiles/tests3.dir/src/figure.cpp.o: ../src/figure.cpp
+CMakeFiles/tests3.dir/src/figure.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests3.dir/src/figure.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/src/figure.cpp.o -MF CMakeFiles/tests3.dir/src/figure.cpp.o.d -o CMakeFiles/tests3.dir/src/figure.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/figure.cpp
 
-CMakeFiles/tests3.dir/figure.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/figure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/figure.cpp > CMakeFiles/tests3.dir/figure.cpp.i
+CMakeFiles/tests3.dir/src/figure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/src/figure.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/figure.cpp > CMakeFiles/tests3.dir/src/figure.cpp.i
 
-CMakeFiles/tests3.dir/figure.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/figure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/figure.cpp -o CMakeFiles/tests3.dir/figure.cpp.s
+CMakeFiles/tests3.dir/src/figure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/src/figure.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/figure.cpp -o CMakeFiles/tests3.dir/src/figure.cpp.s
 
-CMakeFiles/tests3.dir/figure_arr.cpp.o: CMakeFiles/tests3.dir/flags.make
-CMakeFiles/tests3.dir/figure_arr.cpp.o: ../figure_arr.cpp
-CMakeFiles/tests3.dir/figure_arr.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests3.dir/figure_arr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/figure_arr.cpp.o -MF CMakeFiles/tests3.dir/figure_arr.cpp.o.d -o CMakeFiles/tests3.dir/figure_arr.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/figure_arr.cpp
+CMakeFiles/tests3.dir/src/figure_arr.cpp.o: CMakeFiles/tests3.dir/flags.make
+CMakeFiles/tests3.dir/src/figure_arr.cpp.o: ../src/figure_arr.cpp
+CMakeFiles/tests3.dir/src/figure_arr.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests3.dir/src/figure_arr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/src/figure_arr.cpp.o -MF CMakeFiles/tests3.dir/src/figure_arr.cpp.o.d -o CMakeFiles/tests3.dir/src/figure_arr.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/figure_arr.cpp
 
-CMakeFiles/tests3.dir/figure_arr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/figure_arr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/figure_arr.cpp > CMakeFiles/tests3.dir/figure_arr.cpp.i
+CMakeFiles/tests3.dir/src/figure_arr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/src/figure_arr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/figure_arr.cpp > CMakeFiles/tests3.dir/src/figure_arr.cpp.i
 
-CMakeFiles/tests3.dir/figure_arr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/figure_arr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/figure_arr.cpp -o CMakeFiles/tests3.dir/figure_arr.cpp.s
+CMakeFiles/tests3.dir/src/figure_arr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/src/figure_arr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/figure_arr.cpp -o CMakeFiles/tests3.dir/src/figure_arr.cpp.s
 
-CMakeFiles/tests3.dir/triangle.cpp.o: CMakeFiles/tests3.dir/flags.make
-CMakeFiles/tests3.dir/triangle.cpp.o: ../triangle.cpp
-CMakeFiles/tests3.dir/triangle.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests3.dir/triangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/triangle.cpp.o -MF CMakeFiles/tests3.dir/triangle.cpp.o.d -o CMakeFiles/tests3.dir/triangle.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/triangle.cpp
+CMakeFiles/tests3.dir/src/triangle.cpp.o: CMakeFiles/tests3.dir/flags.make
+CMakeFiles/tests3.dir/src/triangle.cpp.o: ../src/triangle.cpp
+CMakeFiles/tests3.dir/src/triangle.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests3.dir/src/triangle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/src/triangle.cpp.o -MF CMakeFiles/tests3.dir/src/triangle.cpp.o.d -o CMakeFiles/tests3.dir/src/triangle.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/triangle.cpp
 
-CMakeFiles/tests3.dir/triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/triangle.cpp > CMakeFiles/tests3.dir/triangle.cpp.i
+CMakeFiles/tests3.dir/src/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/src/triangle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/triangle.cpp > CMakeFiles/tests3.dir/src/triangle.cpp.i
 
-CMakeFiles/tests3.dir/triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/triangle.cpp -o CMakeFiles/tests3.dir/triangle.cpp.s
+CMakeFiles/tests3.dir/src/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/src/triangle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/triangle.cpp -o CMakeFiles/tests3.dir/src/triangle.cpp.s
 
-CMakeFiles/tests3.dir/square.cpp.o: CMakeFiles/tests3.dir/flags.make
-CMakeFiles/tests3.dir/square.cpp.o: ../square.cpp
-CMakeFiles/tests3.dir/square.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests3.dir/square.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/square.cpp.o -MF CMakeFiles/tests3.dir/square.cpp.o.d -o CMakeFiles/tests3.dir/square.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/square.cpp
+CMakeFiles/tests3.dir/src/square.cpp.o: CMakeFiles/tests3.dir/flags.make
+CMakeFiles/tests3.dir/src/square.cpp.o: ../src/square.cpp
+CMakeFiles/tests3.dir/src/square.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests3.dir/src/square.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/src/square.cpp.o -MF CMakeFiles/tests3.dir/src/square.cpp.o.d -o CMakeFiles/tests3.dir/src/square.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/square.cpp
 
-CMakeFiles/tests3.dir/square.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/square.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/square.cpp > CMakeFiles/tests3.dir/square.cpp.i
+CMakeFiles/tests3.dir/src/square.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/src/square.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/square.cpp > CMakeFiles/tests3.dir/src/square.cpp.i
 
-CMakeFiles/tests3.dir/square.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/square.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/square.cpp -o CMakeFiles/tests3.dir/square.cpp.s
+CMakeFiles/tests3.dir/src/square.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/src/square.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/square.cpp -o CMakeFiles/tests3.dir/src/square.cpp.s
 
-CMakeFiles/tests3.dir/rectangle.cpp.o: CMakeFiles/tests3.dir/flags.make
-CMakeFiles/tests3.dir/rectangle.cpp.o: ../rectangle.cpp
-CMakeFiles/tests3.dir/rectangle.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests3.dir/rectangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/rectangle.cpp.o -MF CMakeFiles/tests3.dir/rectangle.cpp.o.d -o CMakeFiles/tests3.dir/rectangle.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/rectangle.cpp
+CMakeFiles/tests3.dir/src/rectangle.cpp.o: CMakeFiles/tests3.dir/flags.make
+CMakeFiles/tests3.dir/src/rectangle.cpp.o: ../src/rectangle.cpp
+CMakeFiles/tests3.dir/src/rectangle.cpp.o: CMakeFiles/tests3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests3.dir/src/rectangle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests3.dir/src/rectangle.cpp.o -MF CMakeFiles/tests3.dir/src/rectangle.cpp.o.d -o CMakeFiles/tests3.dir/src/rectangle.cpp.o -c /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/rectangle.cpp
 
-CMakeFiles/tests3.dir/rectangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/rectangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/rectangle.cpp > CMakeFiles/tests3.dir/rectangle.cpp.i
+CMakeFiles/tests3.dir/src/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests3.dir/src/rectangle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/rectangle.cpp > CMakeFiles/tests3.dir/src/rectangle.cpp.i
 
-CMakeFiles/tests3.dir/rectangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/rectangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/rectangle.cpp -o CMakeFiles/tests3.dir/rectangle.cpp.s
+CMakeFiles/tests3.dir/src/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests3.dir/src/rectangle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/rectangle.cpp -o CMakeFiles/tests3.dir/src/rectangle.cpp.s
 
 # Object files for target tests3
 tests3_OBJECTS = \
-"CMakeFiles/tests3.dir/test_lab3.cpp.o" \
-"CMakeFiles/tests3.dir/point.cpp.o" \
-"CMakeFiles/tests3.dir/figure.cpp.o" \
-"CMakeFiles/tests3.dir/figure_arr.cpp.o" \
-"CMakeFiles/tests3.dir/triangle.cpp.o" \
-"CMakeFiles/tests3.dir/square.cpp.o" \
-"CMakeFiles/tests3.dir/rectangle.cpp.o"
+"CMakeFiles/tests3.dir/src/test_lab3.cpp.o" \
+"CMakeFiles/tests3.dir/src/point.cpp.o" \
+"CMakeFiles/tests3.dir/src/figure.cpp.o" \
+"CMakeFiles/tests3.dir/src/figure_arr.cpp.o" \
+"CMakeFiles/tests3.dir/src/triangle.cpp.o" \
+"CMakeFiles/tests3.dir/src/square.cpp.o" \
+"CMakeFiles/tests3.dir/src/rectangle.cpp.o"
 
 # External object files for target tests3
 tests3_EXTERNAL_OBJECTS =
 
-tests3: CMakeFiles/tests3.dir/test_lab3.cpp.o
-tests3: CMakeFiles/tests3.dir/point.cpp.o
-tests3: CMakeFiles/tests3.dir/figure.cpp.o
-tests3: CMakeFiles/tests3.dir/figure_arr.cpp.o
-tests3: CMakeFiles/tests3.dir/triangle.cpp.o
-tests3: CMakeFiles/tests3.dir/square.cpp.o
-tests3: CMakeFiles/tests3.dir/rectangle.cpp.o
+tests3: CMakeFiles/tests3.dir/src/test_lab3.cpp.o
+tests3: CMakeFiles/tests3.dir/src/point.cpp.o
+tests3: CMakeFiles/tests3.dir/src/figure.cpp.o
+tests3: CMakeFiles/tests3.dir/src/figure_arr.cpp.o
+tests3: CMakeFiles/tests3.dir/src/triangle.cpp.o
+tests3: CMakeFiles/tests3.dir/src/square.cpp.o
+tests3: CMakeFiles/tests3.dir/src/rectangle.cpp.o
 tests3: CMakeFiles/tests3.dir/build.make
 tests3: /usr/lib/x86_64-linux-gnu/libgtest.a
 tests3: CMakeFiles/tests3.dir/link.txt

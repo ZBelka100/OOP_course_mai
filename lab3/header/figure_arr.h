@@ -10,7 +10,7 @@ public:
     figureArray();
     ~figureArray();
 
-    int getSize();
+    int getSize() const;
     void findAllCenters();
     void findAllAreas();
     double findSumAreas();

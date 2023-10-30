@@ -152,215 +152,215 @@ tests3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/build
 .PHONY : tests3/fast
 
-figure.o: figure.cpp.o
-.PHONY : figure.o
+src/figure.o: src/figure.cpp.o
+.PHONY : src/figure.o
 
 # target to build an object file
-figure.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/figure.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/figure.cpp.o
-.PHONY : figure.cpp.o
+src/figure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/figure.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/figure.cpp.o
+.PHONY : src/figure.cpp.o
 
-figure.i: figure.cpp.i
-.PHONY : figure.i
+src/figure.i: src/figure.cpp.i
+.PHONY : src/figure.i
 
 # target to preprocess a source file
-figure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/figure.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/figure.cpp.i
-.PHONY : figure.cpp.i
+src/figure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/figure.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/figure.cpp.i
+.PHONY : src/figure.cpp.i
 
-figure.s: figure.cpp.s
-.PHONY : figure.s
+src/figure.s: src/figure.cpp.s
+.PHONY : src/figure.s
 
 # target to generate assembly for a file
-figure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/figure.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/figure.cpp.s
-.PHONY : figure.cpp.s
+src/figure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/figure.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/figure.cpp.s
+.PHONY : src/figure.cpp.s
 
-figure_arr.o: figure_arr.cpp.o
-.PHONY : figure_arr.o
+src/figure_arr.o: src/figure_arr.cpp.o
+.PHONY : src/figure_arr.o
 
 # target to build an object file
-figure_arr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/figure_arr.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/figure_arr.cpp.o
-.PHONY : figure_arr.cpp.o
+src/figure_arr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/figure_arr.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/figure_arr.cpp.o
+.PHONY : src/figure_arr.cpp.o
 
-figure_arr.i: figure_arr.cpp.i
-.PHONY : figure_arr.i
+src/figure_arr.i: src/figure_arr.cpp.i
+.PHONY : src/figure_arr.i
 
 # target to preprocess a source file
-figure_arr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/figure_arr.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/figure_arr.cpp.i
-.PHONY : figure_arr.cpp.i
+src/figure_arr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/figure_arr.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/figure_arr.cpp.i
+.PHONY : src/figure_arr.cpp.i
 
-figure_arr.s: figure_arr.cpp.s
-.PHONY : figure_arr.s
+src/figure_arr.s: src/figure_arr.cpp.s
+.PHONY : src/figure_arr.s
 
 # target to generate assembly for a file
-figure_arr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/figure_arr.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/figure_arr.cpp.s
-.PHONY : figure_arr.cpp.s
+src/figure_arr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/figure_arr.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/figure_arr.cpp.s
+.PHONY : src/figure_arr.cpp.s
 
-lab3.o: lab3.cpp.o
-.PHONY : lab3.o
+src/lab3.o: src/lab3.cpp.o
+.PHONY : src/lab3.o
 
 # target to build an object file
-lab3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/lab3.cpp.o
-.PHONY : lab3.cpp.o
+src/lab3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/lab3.cpp.o
+.PHONY : src/lab3.cpp.o
 
-lab3.i: lab3.cpp.i
-.PHONY : lab3.i
+src/lab3.i: src/lab3.cpp.i
+.PHONY : src/lab3.i
 
 # target to preprocess a source file
-lab3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/lab3.cpp.i
-.PHONY : lab3.cpp.i
+src/lab3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/lab3.cpp.i
+.PHONY : src/lab3.cpp.i
 
-lab3.s: lab3.cpp.s
-.PHONY : lab3.s
+src/lab3.s: src/lab3.cpp.s
+.PHONY : src/lab3.s
 
 # target to generate assembly for a file
-lab3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/lab3.cpp.s
-.PHONY : lab3.cpp.s
+src/lab3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/lab3.cpp.s
+.PHONY : src/lab3.cpp.s
 
-point.o: point.cpp.o
-.PHONY : point.o
+src/point.o: src/point.cpp.o
+.PHONY : src/point.o
 
 # target to build an object file
-point.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/point.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/point.cpp.o
-.PHONY : point.cpp.o
+src/point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/point.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/point.cpp.o
+.PHONY : src/point.cpp.o
 
-point.i: point.cpp.i
-.PHONY : point.i
+src/point.i: src/point.cpp.i
+.PHONY : src/point.i
 
 # target to preprocess a source file
-point.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/point.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/point.cpp.i
-.PHONY : point.cpp.i
+src/point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/point.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/point.cpp.i
+.PHONY : src/point.cpp.i
 
-point.s: point.cpp.s
-.PHONY : point.s
+src/point.s: src/point.cpp.s
+.PHONY : src/point.s
 
 # target to generate assembly for a file
-point.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/point.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/point.cpp.s
-.PHONY : point.cpp.s
+src/point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/point.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/point.cpp.s
+.PHONY : src/point.cpp.s
 
-rectangle.o: rectangle.cpp.o
-.PHONY : rectangle.o
+src/rectangle.o: src/rectangle.cpp.o
+.PHONY : src/rectangle.o
 
 # target to build an object file
-rectangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/rectangle.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/rectangle.cpp.o
-.PHONY : rectangle.cpp.o
+src/rectangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/rectangle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/rectangle.cpp.o
+.PHONY : src/rectangle.cpp.o
 
-rectangle.i: rectangle.cpp.i
-.PHONY : rectangle.i
+src/rectangle.i: src/rectangle.cpp.i
+.PHONY : src/rectangle.i
 
 # target to preprocess a source file
-rectangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/rectangle.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/rectangle.cpp.i
-.PHONY : rectangle.cpp.i
+src/rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/rectangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/rectangle.cpp.i
+.PHONY : src/rectangle.cpp.i
 
-rectangle.s: rectangle.cpp.s
-.PHONY : rectangle.s
+src/rectangle.s: src/rectangle.cpp.s
+.PHONY : src/rectangle.s
 
 # target to generate assembly for a file
-rectangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/rectangle.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/rectangle.cpp.s
-.PHONY : rectangle.cpp.s
+src/rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/rectangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/rectangle.cpp.s
+.PHONY : src/rectangle.cpp.s
 
-square.o: square.cpp.o
-.PHONY : square.o
+src/square.o: src/square.cpp.o
+.PHONY : src/square.o
 
 # target to build an object file
-square.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/square.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/square.cpp.o
-.PHONY : square.cpp.o
+src/square.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/square.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/square.cpp.o
+.PHONY : src/square.cpp.o
 
-square.i: square.cpp.i
-.PHONY : square.i
+src/square.i: src/square.cpp.i
+.PHONY : src/square.i
 
 # target to preprocess a source file
-square.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/square.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/square.cpp.i
-.PHONY : square.cpp.i
+src/square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/square.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/square.cpp.i
+.PHONY : src/square.cpp.i
 
-square.s: square.cpp.s
-.PHONY : square.s
+src/square.s: src/square.cpp.s
+.PHONY : src/square.s
 
 # target to generate assembly for a file
-square.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/square.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/square.cpp.s
-.PHONY : square.cpp.s
+src/square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/square.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/square.cpp.s
+.PHONY : src/square.cpp.s
 
-test_lab3.o: test_lab3.cpp.o
-.PHONY : test_lab3.o
+src/test_lab3.o: src/test_lab3.cpp.o
+.PHONY : src/test_lab3.o
 
 # target to build an object file
-test_lab3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/test_lab3.cpp.o
-.PHONY : test_lab3.cpp.o
+src/test_lab3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/test_lab3.cpp.o
+.PHONY : src/test_lab3.cpp.o
 
-test_lab3.i: test_lab3.cpp.i
-.PHONY : test_lab3.i
+src/test_lab3.i: src/test_lab3.cpp.i
+.PHONY : src/test_lab3.i
 
 # target to preprocess a source file
-test_lab3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/test_lab3.cpp.i
-.PHONY : test_lab3.cpp.i
+src/test_lab3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/test_lab3.cpp.i
+.PHONY : src/test_lab3.cpp.i
 
-test_lab3.s: test_lab3.cpp.s
-.PHONY : test_lab3.s
+src/test_lab3.s: src/test_lab3.cpp.s
+.PHONY : src/test_lab3.s
 
 # target to generate assembly for a file
-test_lab3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/test_lab3.cpp.s
-.PHONY : test_lab3.cpp.s
+src/test_lab3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/test_lab3.cpp.s
+.PHONY : src/test_lab3.cpp.s
 
-triangle.o: triangle.cpp.o
-.PHONY : triangle.o
+src/triangle.o: src/triangle.cpp.o
+.PHONY : src/triangle.o
 
 # target to build an object file
-triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/triangle.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/triangle.cpp.o
-.PHONY : triangle.cpp.o
+src/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/triangle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/triangle.cpp.o
+.PHONY : src/triangle.cpp.o
 
-triangle.i: triangle.cpp.i
-.PHONY : triangle.i
+src/triangle.i: src/triangle.cpp.i
+.PHONY : src/triangle.i
 
 # target to preprocess a source file
-triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/triangle.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/triangle.cpp.i
-.PHONY : triangle.cpp.i
+src/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/triangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/triangle.cpp.i
+.PHONY : src/triangle.cpp.i
 
-triangle.s: triangle.cpp.s
-.PHONY : triangle.s
+src/triangle.s: src/triangle.cpp.s
+.PHONY : src/triangle.s
 
 # target to generate assembly for a file
-triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/triangle.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/triangle.cpp.s
-.PHONY : triangle.cpp.s
+src/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/src/triangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests3.dir/build.make CMakeFiles/tests3.dir/src/triangle.cpp.s
+.PHONY : src/triangle.cpp.s
 
 # Help Target
 help:
@@ -373,30 +373,30 @@ help:
 	@echo "... test"
 	@echo "... lab3"
 	@echo "... tests3"
-	@echo "... figure.o"
-	@echo "... figure.i"
-	@echo "... figure.s"
-	@echo "... figure_arr.o"
-	@echo "... figure_arr.i"
-	@echo "... figure_arr.s"
-	@echo "... lab3.o"
-	@echo "... lab3.i"
-	@echo "... lab3.s"
-	@echo "... point.o"
-	@echo "... point.i"
-	@echo "... point.s"
-	@echo "... rectangle.o"
-	@echo "... rectangle.i"
-	@echo "... rectangle.s"
-	@echo "... square.o"
-	@echo "... square.i"
-	@echo "... square.s"
-	@echo "... test_lab3.o"
-	@echo "... test_lab3.i"
-	@echo "... test_lab3.s"
-	@echo "... triangle.o"
-	@echo "... triangle.i"
-	@echo "... triangle.s"
+	@echo "... src/figure.o"
+	@echo "... src/figure.i"
+	@echo "... src/figure.s"
+	@echo "... src/figure_arr.o"
+	@echo "... src/figure_arr.i"
+	@echo "... src/figure_arr.s"
+	@echo "... src/lab3.o"
+	@echo "... src/lab3.i"
+	@echo "... src/lab3.s"
+	@echo "... src/point.o"
+	@echo "... src/point.i"
+	@echo "... src/point.s"
+	@echo "... src/rectangle.o"
+	@echo "... src/rectangle.i"
+	@echo "... src/rectangle.s"
+	@echo "... src/square.o"
+	@echo "... src/square.i"
+	@echo "... src/square.s"
+	@echo "... src/test_lab3.o"
+	@echo "... src/test_lab3.i"
+	@echo "... src/test_lab3.s"
+	@echo "... src/triangle.o"
+	@echo "... src/triangle.i"
+	@echo "... src/triangle.s"
 .PHONY : help
 
 

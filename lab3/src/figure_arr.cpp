@@ -1,4 +1,4 @@
-#include "figure_arr.h"
+#include "../header/figure_arr.h"
 
 figureArray::figureArray() : size(0), capacity(3) {
     figures = new Figure*[capacity];
@@ -11,7 +11,7 @@ figureArray::~figureArray() {
     figures = nullptr;
 }
 
-int figureArray::getSize() {
+int figureArray::getSize() const{
     return (*this).size;
 }
 
@@ -31,7 +31,7 @@ void figureArray::pushBack(Figure* figure)  {
 
 std::ostream& operator<<(std::ostream& out, const figureArray& _this) {
     for (size_t i = 0; i < _this.size; ++i) {
-        std::cout << _this.figures[i];
+        std::cout << *(_this.figures[i]);
     }
     return out;
 }

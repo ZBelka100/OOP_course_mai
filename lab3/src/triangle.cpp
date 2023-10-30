@@ -1,4 +1,5 @@
-#include "triangle.h"
+#include "../header/triangle.h"
+#include "../header/point.h"
 
     Triangle::Triangle() :  Figure(3, 't') { 
     }

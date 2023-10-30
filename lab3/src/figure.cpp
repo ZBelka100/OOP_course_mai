@@ -1,5 +1,5 @@
-#include "point.h"
-#include "figure.h"
+#include "../header/point.h"
+#include "../header/figure.h"
 
     
     Figure::Figure() : vertices(nullptr), _size(0), tag('f') {};
@@ -44,7 +44,7 @@
 
     std::ostream& operator<<(std::ostream& out, const Figure& figure) {
         for (int i = 0; i < figure._size; ++i) {
-            out << "p" << i+1 << " = " << figure.vertices[i].x << ' ' << figure.vertices[i].y << "   ";
+            out << "(" << figure.vertices[i].x << ", " << figure.vertices[i].y << ") \n";
         }
         return out;
     } 

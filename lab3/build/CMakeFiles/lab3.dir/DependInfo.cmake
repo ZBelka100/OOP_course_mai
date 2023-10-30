@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/figure.cpp" "CMakeFiles/lab3.dir/figure.cpp.o" "gcc" "CMakeFiles/lab3.dir/figure.cpp.o.d"
-  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/figure_arr.cpp" "CMakeFiles/lab3.dir/figure_arr.cpp.o" "gcc" "CMakeFiles/lab3.dir/figure_arr.cpp.o.d"
-  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/lab3.cpp" "CMakeFiles/lab3.dir/lab3.cpp.o" "gcc" "CMakeFiles/lab3.dir/lab3.cpp.o.d"
-  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/point.cpp" "CMakeFiles/lab3.dir/point.cpp.o" "gcc" "CMakeFiles/lab3.dir/point.cpp.o.d"
-  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/rectangle.cpp" "CMakeFiles/lab3.dir/rectangle.cpp.o" "gcc" "CMakeFiles/lab3.dir/rectangle.cpp.o.d"
-  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/square.cpp" "CMakeFiles/lab3.dir/square.cpp.o" "gcc" "CMakeFiles/lab3.dir/square.cpp.o.d"
-  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/triangle.cpp" "CMakeFiles/lab3.dir/triangle.cpp.o" "gcc" "CMakeFiles/lab3.dir/triangle.cpp.o.d"
+  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/figure.cpp" "CMakeFiles/lab3.dir/src/figure.cpp.o" "gcc" "CMakeFiles/lab3.dir/src/figure.cpp.o.d"
+  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/figure_arr.cpp" "CMakeFiles/lab3.dir/src/figure_arr.cpp.o" "gcc" "CMakeFiles/lab3.dir/src/figure_arr.cpp.o.d"
+  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/lab3.cpp" "CMakeFiles/lab3.dir/src/lab3.cpp.o" "gcc" "CMakeFiles/lab3.dir/src/lab3.cpp.o.d"
+  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/point.cpp" "CMakeFiles/lab3.dir/src/point.cpp.o" "gcc" "CMakeFiles/lab3.dir/src/point.cpp.o.d"
+  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/rectangle.cpp" "CMakeFiles/lab3.dir/src/rectangle.cpp.o" "gcc" "CMakeFiles/lab3.dir/src/rectangle.cpp.o.d"
+  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/square.cpp" "CMakeFiles/lab3.dir/src/square.cpp.o" "gcc" "CMakeFiles/lab3.dir/src/square.cpp.o.d"
+  "/home/andrey/Desktop/cpp_memes/oop/OOP_course_mai/lab3/src/triangle.cpp" "CMakeFiles/lab3.dir/src/triangle.cpp.o" "gcc" "CMakeFiles/lab3.dir/src/triangle.cpp.o.d"
   )
 
 # Targets to which this target links.
