@@ -1,0 +1,6 @@
+*.json
+.vscode/
+googletest/
+*.exe
+build/
+*.
